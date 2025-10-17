@@ -1,0 +1,73 @@
+{
+  "store_code": "TEST_001",
+  "store_name": "테스트 카페",
+  "analysis_date": "2025-10-12",
+  "location": "서울특별시 성동구 왕십리2동",
+  "industry": "외식업",
+  "metrics": {
+    "monthly_revenue": 2500,
+    "monthly_visitors": 800,
+    "average_transaction": 31250,
+    "customer_retention_rate": 0.42,
+    "profit_margin": 0.28,
+    "operating_months": 6
+  },
+  "diagnostic": {
+    "overall_health": "보통",
+    "health_score": 6.5,
+    "strengths": [
+      "위치 접근성 우수 (지하철 도보 5분)",
+      "젊은 고객층 유입",
+      "인테리어 및 분위기 좋음"
+    ],
+    "weaknesses": [
+      "재방문율 낮음 (42%)",
+      "마케팅 활동 미흡",
+      "경쟁 업체 다수"
+    ],
+    "critical_issues": [
+      "고객 리텐션 프로그램 부재",
+      "SNS 마케팅 활동 거의 없음",
+      "차별화 전략 불명확"
+    ]
+  },
+  "recommendations": [
+    {
+      "priority": "high",
+      "category": "마케팅",
+      "title": "SNS 마케팅 강화",
+      "description": "인스타그램, 틱톡을 활용한 숏폼 콘텐츠 마케팅",
+      "expected_impact": "인지도 상승, 젊은 고객층 유입 증가",
+      "estimated_cost": "월 50만원",
+      "implementation_period": "1-2개월"
+    },
+    {
+      "priority": "high",
+      "category": "고객관리",
+      "title": "멤버십 프로그램 도입",
+      "description": "스탬프 적립, 생일 쿠폰 등 고객 리텐션 프로그램",
+      "expected_impact": "재방문율 30-50% 증가",
+      "estimated_cost": "월 30만원",
+      "implementation_period": "1개월"
+    },
+    {
+      "priority": "medium",
+      "category": "운영",
+      "title": "시그니처 메뉴 개발",
+      "description": "차별화된 시그니처 메뉴로 브랜드 정체성 확립",
+      "expected_impact": "객단가 증가, 입소문 효과",
+      "estimated_cost": "월 20만원",
+      "implementation_period": "2-3개월"
+    }
+  ],
+  "financial_projection": {
+    "current_monthly_revenue": 2500,
+    "target_monthly_revenue_3months": 3500,
+    "target_monthly_revenue_6months": 4500,
+    "target_monthly_revenue_12months": 5500,
+    "breakeven_achieved": true,
+    "growth_potential": "상"
+  },
+  "data_source": "store_agent diagnostic engine"
+}
+
